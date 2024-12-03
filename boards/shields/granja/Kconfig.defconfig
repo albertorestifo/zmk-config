@@ -1,0 +1,17 @@
+if SHIELD_GRANJA_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Granja"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_GRANJA_LEFT || SHIELD_GRANJA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

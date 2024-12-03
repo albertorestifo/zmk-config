@@ -1,0 +1,5 @@
+config SHIELD_GRANJA_LEFT
+    def_bool $(shields_list_contains,granja_left)
+
+config SHIELD_GRANJA_RIGHT
+    def_bool $(shields_list_contains,granja_right)
