@@ -1,0 +1,12 @@
+file_format: "1"
+id: granja
+name: Granja
+type: shield
+url: https://github.com/albertorestifo/zmk-config/
+requires: [nice_nano_v2]
+exposes: []
+features:
+  - keys
+siblings:
+  - granja_left
+  - granja_right
