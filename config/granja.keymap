@@ -36,10 +36,10 @@
 
         programming {
             bindings = <
-&trans  &trans  &trans        &trans        &trans                  &trans    &trans    &trans  &trans     &trans
-&trans  &trans  &kp LBKT      &kp RBKT      &trans                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans                  &trans    &trans    &trans  &trans     &trans
-        &trans  &trans        &trans        &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                  &trans    &trans    &trans  &trans     &trans
+&trans  &trans  &kp LBKT              &kp RBKT               &trans                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                  &trans    &trans    &trans  &trans     &trans
+        &trans  &trans                &trans                 &trans  &trans  &trans  &trans    &trans    &trans  &trans
             >;
         };
     };
