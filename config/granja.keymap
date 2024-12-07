@@ -9,19 +9,19 @@
 
         default {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R          &kp T                             &kp Y            &kp U      &kp I          &kp O          &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D         &kp F          &lt 1 G                           &lt 1 H          &kp J      &kp K          &kp L          &lt 3 SEMICOLON
-&lt 2 Z             &kp X         &kp C         &kp V          &kp B                             &kp N            &kp M      &kp COMMA      &kp PERIOD     &kp FSLH
-                    &kt LEFT_ALT  &kp LEFT_GUI  &kp BACKSPACE  &kp LEFT_SHIFT  &kp TAB  &kp RET  &kp RIGHT_SHIFT  &kp SPACE  &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp Q    &kp W           &kp E        &kp R           &kp T                            &kp Y      &kp U            &kp I        &kp O            &kp P
+&lt 3 A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_GUI F  &lt 1 G                          &lt 1 H    &mt RIGHT_GUI J  &mt RCTRL K  &mt RIGHT_ALT L  &lt 3 SEMICOLON
+&kp Z    &kp X           &kp C        &kp V           &kp B                            &kp N      &kp M            &kp COMMA    &kp PERIOD       &kp FSLH
+         &to 2           &to 0        &kp LEFT_SHIFT  &kp BACKSPACE  &kp TAB  &kp RET  &kp SPACE  &kp RIGHT_SHIFT  &to 0        &to 2
             >;
         };
 
         numbers {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-&kt ESCAPE    &trans        &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp SQT
-&trans        &trans        &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-              &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8     &kp N9     &kp N0
+&kt ESCAPE    &kp GRAVE     &trans  &trans  &trans                  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SQT
+&trans        &trans        &trans  &trans  &trans                  &trans  &trans  &trans     &trans     &kp BSLH
+              &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
             >;
         };
 
